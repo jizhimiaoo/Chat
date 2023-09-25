@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "AiChat - 吾爱分享网",
+  description: "没有水的地方叫沙漠，没有我的地方叫寂寞.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "AiChat - 吾爱分享网",
     statusBarStyle: "default",
   },
 };
